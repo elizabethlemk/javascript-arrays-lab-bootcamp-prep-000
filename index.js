@@ -21,10 +21,11 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 function appendKitten(name){
-  const moreKittens = [...kittens, "Broom"]
-  return moreKittens
+  const endKittens = [...kittens, "Broom"]
+  return endKittens
 }
 
 function prependKitten(name){
-
+  const firstKittens = ["Broom", ...kittens]
+  return firstKittens
 }
