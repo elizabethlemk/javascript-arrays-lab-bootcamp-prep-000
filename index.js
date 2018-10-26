@@ -1,4 +1,4 @@
-var kittens = Arrays("Milo", "Otis", "Garfield")
+var kittens = new Array("Milo", "Otis", "Garfield")
 
  //define your array here
 
