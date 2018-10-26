@@ -1,4 +1,4 @@
-var kittens = new Array("Milo", "Otis", "Garfield")
+var kittens = new Array("Milo", "Otis", "Garfield");
 
  //define your array here
 
@@ -19,4 +19,12 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
+}
+function appendKitten(name){
+  const moreKittens = [...kittens, name]
+  return moreKittens
+}
+
+function prependKitten(name){
+  
 }
