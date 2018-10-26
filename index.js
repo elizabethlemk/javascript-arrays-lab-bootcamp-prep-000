@@ -31,11 +31,11 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  kittens = kittens.slice(0, kittens.length - 1)
-  return kittens
+  noEndKittens = kittens.slice(0, kittens.length - 1)
+  return noEndKittens
 }
 
 function removeFirstKitten(){
-  kittens = kittens.slice(1)
-  return kittens
+  noFirstKittens = kittens.slice(1)
+  return noFirstKittens
 }
