@@ -29,3 +29,11 @@ function prependKitten(name){
   const firstKittens = ["Arnold", ...kittens]
   return firstKittens
 }
+
+function removeLastKitten(){
+  
+}
+
+function removeFirstKitten(){
+  
+}
