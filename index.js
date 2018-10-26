@@ -41,3 +41,4 @@ function removeFirstKitten(){
 }
 
 console.log(removeFirstKitten())
+console.log(removeLastKitten())
